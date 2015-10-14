@@ -1,0 +1,27 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.title {
+  padding-left: 50px;
+}
+
+#tableContainer {
+  border-left: #aaa 1px solid;
+  border-top: #aaa 1px solid;
+}
+
+#tableCotainer, tr, td {
+  width: 120px;
+  height: 20px;
+  border-right: #aaa 1px solid;
+  border-bottom: #aaa 1px solid;
+}
+
+.activeCell {
+  border: blue 1px solid;
+}
