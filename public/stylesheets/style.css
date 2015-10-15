@@ -11,17 +11,44 @@ a {
 }
 
 #tableContainer {
-  border-left: #aaa 1px solid;
-  border-top: #aaa 1px solid;
+  border: #ddd 1px solid;
 }
 
-#tableCotainer, tr, td {
+#tableContainer tr td {
   width: 120px;
   height: 20px;
-  border-right: #aaa 1px solid;
-  border-bottom: #aaa 1px solid;
+  border: #ddd 1px solid;
 }
 
-.activeCell {
+#tableContainer tr {
+    height: 20px;
+}
+
+#tableContainer tr td input{
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    width: inherit;
+}
+
+#tableContainer tr td input:focus {
+    outline: none;
+}
+
+#tableContainer tr td.activeCell {
   border: blue 1px solid;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+#uploadFormContainer {
+    width: 500px;
+    margin-top: 100px;
+}
+
+#uploadFormContainer .formElement {
+    margin-bottom: 10px;
 }
